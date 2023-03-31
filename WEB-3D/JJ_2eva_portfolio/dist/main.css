@@ -1,0 +1,75 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    
+}
+
+h1 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#e700d4c2, #400570a4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#d8e253cc, #df7803b0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  h3 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#07bdf5ad, #0d35b8af);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  h4 {
+    font-size: 72px; /*(#036e11ad, #07a035af);*/
+    background: -webkit-linear-gradient( #07a035af,#036e11ad);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+
+.section
+{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    font-family: 'Cabin', sans-serif;
+    color: #ffeded;
+    /*text-transform: uppercase;*/
+    font-size: 7vmin;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+section:nth-child(odd)
+{
+    justify-content: flex-end;
+}
+
+
+/*# sourceMappingURL=main.css.map*/
